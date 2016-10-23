@@ -21428,15 +21428,15 @@
 /* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var React = __webpack_require__(2);
-	var ReactRouter = __webpack_require__(174);
-	var Router = ReactRouter.Router;
-	var Route = ReactRouter.Route;
-	var IndexRoute = ReactRouter.IndexRoute;
-	var hashHistory = ReactRouter.hashHistory;
-	var Main = __webpack_require__(237);
+	let React = __webpack_require__(2);
+	let ReactRouter = __webpack_require__(174);
+	let Router = ReactRouter.Router;
+	let Route = ReactRouter.Route;
+	let IndexRoute = ReactRouter.IndexRoute;
+	let hashHistory = ReactRouter.hashHistory;
+	let Main = __webpack_require__(237);
 
-	var routes = React.createElement(
+	let routes = React.createElement(
 	  Router,
 	  { history: hashHistory },
 	  React.createElement(Route, { path: '/', component: Main })
@@ -27105,7 +27105,7 @@
 	var Main = React.createClass({
 	  displayName: "Main",
 
-	  render: function () {
+	  render() {
 	    return React.createElement(
 	      "div",
 	      { className: "main-container" },
