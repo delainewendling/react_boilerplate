@@ -1,7 +1,7 @@
 var React = require('react');
 
 var Main = React.createClass({
-  render: function() {
+  render() {
     return (
       <div className="main-container">
          <h1> Hello World! </h1>

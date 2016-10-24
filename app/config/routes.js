@@ -1,14 +1,14 @@
-var React = require('react');
-var ReactRouter = require('react-router');
-var Router = ReactRouter.Router;
-var Route = ReactRouter.Route;
-var IndexRoute = ReactRouter.IndexRoute;
-var hashHistory = ReactRouter.hashHistory;
-var Main = require('../components/Main');
+let React = require('react');
+let ReactRouter = require('react-router');
+let Router = ReactRouter.Router;
+let Route = ReactRouter.Route;
+let IndexRoute = ReactRouter.IndexRoute;
+let hashHistory = ReactRouter.hashHistory;
+let Main = require('../components/Main');
 
-var routes = (
+let routes = (
   <Router history={hashHistory}>
-    <Route path='/' component={Main} />
+    <Route path="/" component={Main} />
   </Router>
 )
 
