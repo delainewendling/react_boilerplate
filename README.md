@@ -7,4 +7,5 @@ The following repo is a boilerplate for React projects
 1. Navigate to the place you want your React project
 2. Clone this repo using `git clone` 
 3. Use the command `npm install` to install all of the dependencies
+3. Use the command `npm start` to start up the application on your local machine
 4. You should be good to go!
